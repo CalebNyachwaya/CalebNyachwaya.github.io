@@ -1,0 +1,4 @@
+tmux new-session -d 'gunicorn --bind 0.0.0.0:5003 web_flask.talent_pot:app'
+tmux new-session -d 'gunicorn --bind 0.0.0.0:5002 api.v1.app:app'
+
+gunicorn --bind 0.0.0.0:5002 api.v1.app:app
