@@ -12,7 +12,8 @@ tmux new-session -d 'gunicorn --bind 0.0.0.0:5003 web_flask.talent_pot:app'
 tmux new-session -d 'gunicorn --bind 0.0.0.0:5002 api.v1.app:app'
 
 
+TP_MYSQL_USER=tp_dev TP_MYSQL_PWD=TP_dev_pwd_001 TP_MYSQL_HOST=localhost TP_MYSQL_DB=tp_dev_db TP_TYPE_STORAGE=db TP_API_HOST=0.0.0.0 TP_API_PORT=5000 python3 -m api.v1.app
 
-gunicorn --bind 0.0.0.0:5002 api.v1.app:app
+
 
 sudo kill -9
