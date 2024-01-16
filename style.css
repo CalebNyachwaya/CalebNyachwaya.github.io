@@ -39,7 +39,7 @@ body {
   margin-right: auto;
   margin-top: 100px;
   font-size: 16px;
-/*   font-weight: bold; */
+  /*   font-weight: bold; */
 }
 @media screen and (max-width: 768px) {
   #console {
@@ -122,6 +122,8 @@ a {
 #stars1 {
   width: 1px;
   height: 1px;
+  border-radius: 50%;
+  /* opacity: 50%; */
   background: transparent;
   animation: animStar 120s linear infinite;
 
@@ -310,6 +312,8 @@ a {
   top: auto;
   width: 1px;
   height: 1px;
+  border-radius: 50%;
+  /* opacity: 50%; */
   background: transparent;
 
   box-shadow: 779px 1331px #fff, 324px 42px #fff, 303px 586px #fff,
@@ -494,6 +498,8 @@ a {
 #stars2 {
   width: 2px;
   height: 2px;
+  border-radius: 50%;
+  opacity: 50%;
   background: transparent;
   animation: animStar 180s linear infinite;
 
@@ -553,6 +559,8 @@ a {
 #stars2:after {
   content: "";
   position: absolute;
+  border-radius: 50%;
+  opacity: 50%;
   top: auto;
   width: 2px;
   height: 2px;
@@ -614,6 +622,8 @@ a {
 #stars3 {
   width: 3px;
   height: 3px;
+  border-radius: 50%;
+  opacity: 50%;
   background: transparent;
   animation: animStar 240s linear infinite;
 
@@ -648,6 +658,8 @@ a {
 #stars3:after {
   content: "";
   position: absolute;
+  opacity: 10%;
+  border-radius: 50%;
   top: auto;
   width: 3px;
   height: 3px;
