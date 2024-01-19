@@ -39,9 +39,10 @@
       <div id="stars3"></div>
     </section>
     <section id="console">
+      <!-- <span><i class="fa-regular fa-face-smile"></i></span><br/> -->
+      <!-- <span><i class="fa-regular fa-face-smile smile fa-lg"></i></span><br /> -->
+      <img src="/profilepic2.svg" alt="Profile Picture" class="prof2 smile" />
       <p>
-        <!-- <span><i class="fa-regular fa-face-smile"></i></span><br/> -->
-        <span><i class="far fa-face-smile smile"></i></span><br />
         This is Caleb Nyachwaya<br />
         Welcome
       </p>
@@ -120,14 +121,11 @@
     </section>
     <!-- End of Parallax Pixel Background Animation -->
     <!-- <script type="text/javascript" src="index.js"></script> -->
-    <div id="console" class="container1"></div>
-    <div class="container2" id="container2">
+    <!-- <div id="console" class="container1"></div> -->
+    <section class="container2" id="container2">
       <div class="mylinks">
-        <a id="profilePicture" href="#popup">
-          <img
-            src="https://avatars.githubusercontent.com/u/112781610?v=4"
-            alt="Profile Picture"
-          />
+        <a class="profilePicture smile" href="#popup">
+          <img src="/profilepic2.svg" alt="Profile Picture" />
         </a>
 
         <div class="overlay" id="popup">
@@ -137,10 +135,7 @@
                 href="https://avatars.githubusercontent.com/u/112781610?v=4"
                 target="_blank"
               >
-                <img
-                  src="https://avatars.githubusercontent.com/u/112781610?v=4"
-                  alt="Profile Picture"
-                />
+                <img src="/profilepic.svg" alt="Profile Picture" />
               </a>
             </div>
             <div class="popup-quote">
@@ -150,7 +145,10 @@
             <a class="popup-close" onclick="history.back()">&times;</a>
           </div>
         </div>
-
+        <!-- <div class="hehe">
+          <i class="fa-regular fa-face-smile smile fa-lg"></i>
+        </div> -->
+        <br />
         <div id="userName">calebnyachwaya</div>
 
         <div id="links">
@@ -193,7 +191,63 @@
         <!-- <div id="hashtag">☠︎ Xpert</div> -->
         <div id="hashtag"><i class="fa-regular fa-face-smile"></i></div>
       </div>
-    </div>
+      <div class="links">
+        <div class="card">
+          <div class="card-inner">
+            <div class="iconimage">
+              <span id="c"><i class="fa-solid fa-house"></i></span>
+            </div>
+            <div class="linkname">
+              <a
+                href="/"
+                target="_blank"
+                class="card-title"
+                onmouseover="changeS('Home')"
+                onmouseout="resetS()"
+                >Home</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="iconimage">
+              <a>
+                <span id="c"><i class="fas fa-external-link-alt"></i></span>
+              </a>
+            </div>
+            <div class="linkname">
+              <a
+                href="#"
+                class="card-title"
+                onmouseover="changeS('Links')"
+                onmouseout="resetS()"
+                onclick="showContainer2()"
+                >Links</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="iconimage">
+              <span id="c"><i class="fa-solid fa-book"></i></span>
+            </div>
+            <div class="linkname">
+              <a
+                href="/"
+                target="_blank"
+                class="card-title"
+                onmouseover="changeS('Blog')"
+                onmouseout="resetS()"
+                >Blog</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="statement" id="links-widget">try</p>
+    </section>
     <script src="test.js"></script>
   </body>
 </html>

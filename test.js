@@ -15,3 +15,11 @@ function changeStatement(newText) {
 function resetStatement() {
   document.getElementById("statement").textContent = "";
 }
+
+function changeS(newText) {
+  document.getElementById("links-widget").textContent = newText;
+}
+
+function resetS() {
+  document.getElementById("links-widget").textContent = "";
+}
