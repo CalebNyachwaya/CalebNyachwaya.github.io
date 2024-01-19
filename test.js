@@ -7,3 +7,11 @@ function showContainer2() {
   container1.style.display = "none";
   container2.style.display = "block";
 }
+
+function changeStatement(newText) {
+  document.getElementById("statement").textContent = newText;
+}
+
+function resetStatement() {
+  document.getElementById("statement").textContent = "";
+}

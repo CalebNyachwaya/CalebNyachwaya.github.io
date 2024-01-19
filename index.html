@@ -52,10 +52,10 @@
       </p>
 
       <p>
-        You can learn more about me
+        You can learn more about me here
         <a href="https://www.linkedin.com/in/calebnyachwaya" target="_blank">
-          <span id="c">here</span></a
-        >
+          <span id="c"><i class="fa-regular fa-hand-point-right"></i></span
+        ></a>
       </p>
 
       Whether you're keen on discussing the latest tech trends or eager to
@@ -65,24 +65,36 @@
         <div class="card">
           <div class="card-inner">
             <div class="iconimage">
-              <span id="c"><i class="fa-solid fa-house"></i></span
-              ></a>
+              <span id="c"><i class="fa-solid fa-house"></i></span>
             </div>
             <div class="linkname">
-              <a href="/" target="_blank">Home</a>
+              <a
+                href="/"
+                target="_blank"
+                class="card-title"
+                onmouseover="changeStatement('Home')"
+                onmouseout="resetStatement()"
+                >Home</a
+              >
             </div>
           </div>
         </div>
         <div class="card">
           <div class="card-inner">
             <div class="iconimage">
-              <a href="#test"
-                ><span id="c" onclick="showContainer2()"
-                  ><i class="fas fa-external-link-alt"></i></span
-              ></a>
+              <a>
+                <span id="c"><i class="fas fa-external-link-alt"></i></span>
+              </a>
             </div>
             <div class="linkname">
-              <a href="/" target="_blank">Links</a>
+              <a
+                href="#"
+                class="card-title"
+                onmouseover="changeStatement('Links')"
+                onmouseout="resetStatement()"
+                onclick="showContainer2()"
+                >Links</a
+              >
             </div>
           </div>
         </div>
@@ -92,11 +104,19 @@
               <span id="c"><i class="fa-solid fa-book"></i></span>
             </div>
             <div class="linkname">
-              <a href="/" target="_blank">Blog</a>
+              <a
+                href="/"
+                target="_blank"
+                class="card-title"
+                onmouseover="changeStatement('Blog')"
+                onmouseout="resetStatement()"
+                >Blog</a
+              >
             </div>
           </div>
         </div>
       </div>
+      <p class="statement" id="statement"></p>
     </section>
     <!-- End of Parallax Pixel Background Animation -->
     <!-- <script type="text/javascript" src="index.js"></script> -->
@@ -158,11 +178,7 @@
           >
             <i class="fa-brands fa-hashnode fa-xs"></i> Hashnode
           </a>
-          <a
-            class="link"
-            href="https://twitter.com/vpreston254"
-            target="_blank"
-          >
+          <a class="link" href="https://twitter.com/" target="_blank">
             <i class="fab fa-twitter">&nbsp;&nbsp;</i>Twitter
           </a>
           <!-- <a
