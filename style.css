@@ -231,6 +231,23 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.linkpic {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.para {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.para2 {
+  margin-top: 0;
+}
+
 #userName {
   color: var(--accentColor);
   font-size: 1rem;
