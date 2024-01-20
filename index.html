@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caleb Nyachwaya | About Me</title>
+    <title>Caleb | About Me</title>
     <!-- Favicon -->
     <link
       rel="icon"
@@ -38,14 +38,14 @@
       <div id="stars2"></div>
       <div id="stars3"></div>
     </section>
+    <header>
+      <div>
+        <img src="/profilepic2.svg" alt="Profile Picture" class="prof2 smile" />
+      </div>
+      <div id="userName">calebnyachwaya</div>
+    </header>
     <section id="console">
-      <!-- <span><i class="fa-regular fa-face-smile"></i></span><br/> -->
-      <!-- <span><i class="fa-regular fa-face-smile smile fa-lg"></i></span><br /> -->
-      <img src="/profilepic2.svg" alt="Profile Picture" class="prof2 smile" />
-      <p>
-        This is Caleb Nyachwaya<br />
-        Welcome
-      </p>
+      <p>Welcome</p>
       <p>
         I am passionate about Network Administration, Server Management, and
         HelpDesk Support. <br />
@@ -60,71 +60,14 @@
       </p>
 
       Whether you're keen on discussing the latest tech trends or eager to
-      collaborate on innovative projects, I'm here for it all!<br />
-
-      <div class="links">
-        <div class="card">
-          <div class="card-inner">
-            <div class="iconimage">
-              <span id="c"><i class="fa-solid fa-house"></i></span>
-            </div>
-            <div class="linkname">
-              <a
-                href="/"
-                target="_blank"
-                class="card-title"
-                onmouseover="changeStatement('Home')"
-                onmouseout="resetStatement()"
-                >Home</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="iconimage">
-              <a>
-                <span id="c"><i class="fas fa-external-link-alt"></i></span>
-              </a>
-            </div>
-            <div class="linkname">
-              <a
-                href="#"
-                class="card-title"
-                onmouseover="changeStatement('Links')"
-                onmouseout="resetStatement()"
-                onclick="showContainer2()"
-                >Links</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-inner">
-            <div class="iconimage">
-              <span id="c"><i class="fa-solid fa-book"></i></span>
-            </div>
-            <div class="linkname">
-              <a
-                href="/"
-                target="_blank"
-                class="card-title"
-                onmouseover="changeStatement('Blog')"
-                onmouseout="resetStatement()"
-                >Blog</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <p class="statement" id="statement"></p>
+      collaborate on innovative projects, I'm here for it all!
     </section>
     <!-- End of Parallax Pixel Background Animation -->
     <!-- <script type="text/javascript" src="index.js"></script> -->
     <!-- <div id="console" class="container1"></div> -->
     <section class="container2" id="container2">
       <div class="mylinks">
-        <a class="profilePicture smile" href="#popup">
+        <!-- <a class="profilePicture smile" href="#popup">
           <img src="/profilepic2.svg" alt="Profile Picture" />
         </a>
 
@@ -144,13 +87,10 @@
             </div>
             <a class="popup-close" onclick="history.back()">&times;</a>
           </div>
-        </div>
+        </div> -->
         <!-- <div class="hehe">
           <i class="fa-regular fa-face-smile smile fa-lg"></i>
         </div> -->
-        <br />
-        <div id="userName">calebnyachwaya</div>
-
         <div id="links">
           <a
             class="link"
@@ -179,75 +119,54 @@
           <a class="link" href="https://twitter.com/" target="_blank">
             <i class="fab fa-twitter">&nbsp;&nbsp;</i>Twitter
           </a>
-          <!-- <a
-          class="link"
-          href="https://www.credly.com/users/victor-preston.c78e4d1c/badges"
-          target="_blank"
-        >
-          <i class="fas fa-medal">&nbsp;&nbsp;</i>Credly
-        </a> -->
         </div>
 
         <!-- <div id="hashtag">☠︎ Xpert</div> -->
-        <div id="hashtag"><i class="fa-regular fa-face-smile"></i></div>
       </div>
+    </section>
+    <footer>
       <div class="links">
         <div class="card">
           <div class="card-inner">
-            <div class="iconimage">
-              <span id="c"><i class="fa-solid fa-house"></i></span>
-            </div>
-            <div class="linkname">
-              <a
-                href="/"
-                target="_blank"
-                class="card-title"
-                onmouseover="changeS('Home')"
-                onmouseout="resetS()"
-                >Home</a
-              >
-            </div>
+            <a
+              href="/"
+              target="_blank"
+              class="iconimage"
+              onmouseover="changeS('Home')"
+              onmouseout="resetS()"
+              ><i class="fa-solid fa-house"></i
+            ></a>
           </div>
         </div>
         <div class="card">
           <div class="card-inner">
-            <div class="iconimage">
-              <a>
-                <span id="c"><i class="fas fa-external-link-alt"></i></span>
-              </a>
-            </div>
-            <div class="linkname">
-              <a
-                href="#"
-                class="card-title"
-                onmouseover="changeS('Links')"
-                onmouseout="resetS()"
-                onclick="showContainer2()"
-                >Links</a
-              >
-            </div>
+            <a
+              href="#"
+              class="iconimage"
+              onmouseover="changeS('Links')"
+              onmouseout="resetS()"
+              onclick="showContainer2()"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
           </div>
         </div>
         <div class="card">
           <div class="card-inner">
-            <div class="iconimage">
-              <span id="c"><i class="fa-solid fa-book"></i></span>
-            </div>
-            <div class="linkname">
-              <a
-                href="/"
-                target="_blank"
-                class="card-title"
-                onmouseover="changeS('Blog')"
-                onmouseout="resetS()"
-                >Blog</a
-              >
-            </div>
+            <a
+              href="/"
+              target="_blank"
+              class="iconimage"
+              onmouseover="changeS('Blog')"
+              onmouseout="resetS()"
+              ><i class="fa-solid fa-book"></i
+            ></a>
           </div>
         </div>
       </div>
-      <p class="statement" id="links-widget">try</p>
-    </section>
+      <p class="statement" id="links-widget">
+        <span id="hashtag"><i class="fa-regular fa-face-smile"></i></span>
+      </p>
+    </footer>
     <script src="test.js"></script>
   </body>
 </html>

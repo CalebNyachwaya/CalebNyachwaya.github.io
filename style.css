@@ -31,12 +31,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  color: var(--accentColor);
 }
 #a,
 #b,
 #c {
   white-space: nowrap;
 }
+
+header {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 #console {
   /* font-family: courier, monospace; */
   color: #fff;
@@ -47,6 +56,7 @@ body {
   font-size: 16px;
   line-height: 2.5;
   text-align: center;
+  height: 400px;
   /*   font-weight: bold; */
 }
 .container2 {
@@ -54,6 +64,7 @@ body {
   height: 100vh;
   color: white;
   text-align: center;
+  height: 400px;
 }
 
 .links {
@@ -63,26 +74,27 @@ body {
   margin-top: 40px;
 }
 
-.card {
-  /* border: #fff solid 1px; */
-  width: 50px;
+footer {
+  color: white;
+  text-align: center;
 }
 
-.card-inner {
+.card {
+  /* border: #fff solid 1px; */
+  /* width: 50px; */
+  /* border: red 1px solid; */
+}
+
+.card .card-inner {
   border: solid white 1px;
-  border-radius: 10%;
+  border-radius: 20%;
   width: 50px;
   height: 40px;
   display: flex;
   align-items: center;
-  position: ;
-  /* background-color: #a5acb9; */
-  /* margin: 5px; */
-  /* opacity: 0.3; */
-}
-.card .card-inner {
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .card:hover .card-inner {
@@ -93,11 +105,15 @@ body {
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
+  color: var(--accentColor);
 }
 
 .card:hover .iconimage {
   transform: scale(1.3);
   transition: var(--transition-duration) var(--transition-cubic-bezier);
+  position: absolute;
+
+  /* z-index: 1; */
 }
 
 .card .linkname {
@@ -107,24 +123,19 @@ body {
   right: -0.1rem;
   z-index: 1;
   transition: var(--transition-duration) var(--transition-cubic-bezier);
-  opacity: 0;
+  opacity: 1;
+  border: green 1px solid;
 }
 
 .card:hover .linkname {
   /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
-/* .card .card-title {
-  text-align: center;
+.card .card-title {
   margin: 0;
-  opacity: 0;
-  height: 100%;
-  position: relative;
-}
-
-.card:hover .card-title {
   opacity: 1;
-} */
+  height: 100%;
+}
 
 @media screen and (max-width: 768px) {
   #console {

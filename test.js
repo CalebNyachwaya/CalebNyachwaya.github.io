@@ -8,14 +8,6 @@ function showContainer2() {
   container2.style.display = "block";
 }
 
-function changeStatement(newText) {
-  document.getElementById("statement").textContent = newText;
-}
-
-function resetStatement() {
-  document.getElementById("statement").textContent = "";
-}
-
 function changeS(newText) {
   document.getElementById("links-widget").textContent = newText;
 }
