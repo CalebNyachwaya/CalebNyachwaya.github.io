@@ -24,3 +24,11 @@ function changeS(newText) {
 function resetS() {
   document.getElementById("links-widget").textContent = "";
 }
+
+window.onresize = screen;
+window.onload = screen;
+
+function screen() {
+  myWidth = window.innerHeight;
+  document.getElementById("size").innerHTML = "Height : " + myWidth + "px";
+}
