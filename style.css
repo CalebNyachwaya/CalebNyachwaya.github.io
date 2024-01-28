@@ -17,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  min-height: 100vh;
   font-family: var(--font);
   background: radial-gradient(
     ellipse at bottom,
@@ -33,11 +33,25 @@ body {
   position: relative;
   color: var(--accentColor);
 }
-#a,
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: var(--bgColor2);
+}
+
+::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #4b5662; */
+  background: #bbbfc3;
+}
+/* #a,
 #b,
 #c {
   white-space: nowrap;
-}
+} */
 
 .main {
   height: 100%;
