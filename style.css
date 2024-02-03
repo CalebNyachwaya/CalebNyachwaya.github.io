@@ -114,11 +114,11 @@ footer {
   flex-direction: column;
 }
 
-@media screen and (max-height: 780px) {
+/* @media screen and (max-height: 780px) {
   header {
     margin-bottom: 20px;
   }
-}
+} */
 
 @media screen and (min-height: 781px) {
   #console {
@@ -268,8 +268,6 @@ a {
   }
 }
 
-/* My Links */
-/* #profilePicture, */
 .prof2,
 .profilePicture img {
   position: relative;
@@ -278,14 +276,6 @@ a {
   display: block;
   margin: 50px auto 10px;
   -webkit-tap-highlight-color: transparent;
-}
-
-.linkpic {
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  margin-left: 6px;
-  margin-bottom: 2px;
 }
 
 @keyframes zenAnimation {
@@ -317,7 +307,23 @@ a {
   justify-content: center;
 }
 .para2 {
-  margin-top: 0;
+  margin: 0;
+}
+
+.pic {
+  width: 22px;
+  height: auto;
+  display: inline-block;
+  margin-left: 4px;
+  margin-top: 1px;
+}
+
+.linkpic {
+  width: 16px;
+  height: auto;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 14px;
 }
 
 #userName {
@@ -336,7 +342,7 @@ a {
   max-width: 675px;
   width: auto;
   display: block;
-  margin: 27px auto;
+  margin: 10px auto;
 }
 
 .link {
